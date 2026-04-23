@@ -79,7 +79,7 @@ resource "aws_db_subnet_group" "db" {
     var.common_tags,
     var.database_subnet_group_tags,
     {
-        Name = "${local.resource_name}-${db}"
+        Name = "${local.resource_name}-db"
     }
   )
 }
