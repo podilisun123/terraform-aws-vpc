@@ -63,6 +63,10 @@ variable "database_subnet_tags" {
     type = map
     default = {}
 }
+variable "database_subnet_group_tags" {
+    type = map
+    default = {}
+}
 
 #### NAT gateway ####
 variable "nat_gateway_tags" {
